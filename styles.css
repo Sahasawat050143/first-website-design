@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+*{
+    font-family: 'Macondo', cursive;
+}
+#content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#content2{
+    padding-bottom: 60px;
+}
+#headPicture{
+    width: 100%;
+    background-image: url("asset/flo-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 300px;
+}
+#paddingHead{
+    animation-name: fadeLeft;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeLeft{
+    0%  {margin-right: 0%}
+    33% {margin-right: 10%}
+    66% {margin-left: 10%}
+    100% {margin-right: 0%}
+}
+#headPicture h1{
+    padding-top: 400px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+#headPicture p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#navMain{
+    width: 100%;
+}
+img:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
